@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: 'xxxxxxxxxxx',
+        bucketName: '604916934754-wildcard-chetanpawar-cloud',
         protocol: 'https',
         hostname: 'www.chetanpawar.cloud',
       },
