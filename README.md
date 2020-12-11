@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Portfolio website for https://github.com/pawarrchetan
+A Portfolio website for https://github.com/pawarrchetan hosted in AWS S3 and AWS CloudFront
 
 <h2 align="center">
   <img src="https://raw.githubusercontent.com/pawarrchetan/portfolio-static-website/master/examples/example.gif" alt="Portfolio" width="600px" />
@@ -133,7 +133,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '<path to your Read-only resume in github>', // if no resume, the button will not show up
 };
 ```
 
@@ -239,8 +239,15 @@ $secondary-color: #00cdac;
 ## Deployment
 
 Once you have done with your setup. You need to put your website online!
+There are several ways to do it.
+For example :
 
-I highly recommend to use [Netlify](https://netlify.com) to achieve this on the EASIEST WAY
+- AWS S3 and AWS CloudFront
+- Netlify
+- Third Party Hosting solutions like GoDaddy, Wordpress etc.
+- Self hosting using wordpress.org
+
+I have chosen **AWS S3** and **AWS CloudFront** to host my portfolio website.
 
 ## Technologies used
 
