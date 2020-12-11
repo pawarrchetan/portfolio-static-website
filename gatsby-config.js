@@ -31,5 +31,13 @@ module.exports = {
         icon: 'src/images/favicon.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'xxxxxxxxxxx',
+        protocol: 'https',
+        hostname: 'www.chetanpawar.cloud',
+      },
+    },
   ],
 };

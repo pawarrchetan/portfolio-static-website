@@ -20,11 +20,10 @@ export const heroData = {
 export const aboutData = {
   img: 'chetan.jpg',
   paragraphOne:
-    'Driven and motivated to build great things in Cloud to get awesome results. Leveraging the cloud to create cost efficienct architecture and improve revenue for organizations.',
+    'Driven and motivated to build great things in Cloud to get awesome results. Leveraging the cloud to create cost efficient architecture and improve revenue for organizations.',
   paragraphTwo:
     'Helping organizations to adapt to SRE model and automating every required step in the way.',
-  paragraphThree:
-    'Technologies that I have worked with can be found at - https://techradar.chetanpawar.cloud',
+  paragraphThree: 'Technologies I worked with - https://techradar.chetanpawar.cloud',
   resume: 'https://github.com/pawarrchetan/resume/blob/main/ChetanPawarResume.pdf', // 'https://techradar.chetanpawar.cloud', // if no resume, the button will not show up
 };
 
@@ -34,17 +33,18 @@ export const projectsData = [
     id: nanoid(),
     img: 'cologne.jpg',
     title: 'Automated Observability Solution using AWS',
-    info: '',
+    info:
+      'A solution designed using AWS, PagerDuty (paid account), ElasticSearch and a Status Page for Automated monitoring and alerting.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/pawarrchetan/observability/blob/main/automated-observability.jpeg',
+    repo: 'https://github.com/pawarrchetan/observability/blob/main/automated-observability.jpeg', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'pune.jpg',
-    title: 'Serverless Centralized Logging',
+    title: 'Serverless Log Forwarder for Centralized Logging',
     info:
-      'The combination of the 2 functions deployed by this repository allow centralised logging of serverless components in Elasticsearch.',
+      'The combination of 2 AWS Lambda functions deployed by this repository allow centralized logging of serverless components in Elasticsearch.',
     info2: '',
     url: 'https://github.com/pawarrchetan/serverless-logging',
     repo: 'https://github.com/pawarrchetan/serverless-logging', // if no repo, the button will not show up
@@ -91,5 +91,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
