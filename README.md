@@ -1,9 +1,9 @@
-# Gatsby Portfolio
+# Portfolio Website
 
-## A clean, beautiful and responsive portfolio template
+Portfolio website for https://github.com/pawarrchetan
 
 <h2 align="center">
-  <img src="https://github.com/pawarrchetan/portfolio-static-website/blob/master/examples/example.gif" alt="Portfolio" width="600px" />
+  <img src="https://raw.githubusercontent.com/pawarrchetan/portfolio-static-website/master/examples/example.gif" alt="Portfolio" width="600px" />
   <br>
 </h2>
 
@@ -101,7 +101,7 @@ $ sudo npm install --unsafe-perm=true --allow-root
 Once your server has started, go to this url `http://localhost:8000/` and you will see the website running on a Development Server:
 
 <h2 align="center">
-  <img src="https://github.com/pawarrchetan/portfolio-static-website/blob/master/examples/example.gif" alt="Portfolio" width="100%">
+  <img src="https://raw.githubusercontent.com/pawarrchetan/portfolio-static-website/master/examples/example.gif" alt="Portfolio" width="600px">
 </h2>
 
 ---
