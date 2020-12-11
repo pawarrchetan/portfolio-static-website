@@ -59,6 +59,16 @@ export const projectsData = [
     url: 'https://github.com/pawarrchetan/serverless/tree/master/aurora-serverless',
     repo: 'https://github.com/pawarrchetan/serverless/tree/master/aurora-serverless', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'paris.jpg',
+    title: 'Static Website for my Portfolio using AWS S3 and AWS CloudFront',
+    info:
+      'A static portfolio website using Gatsby, JavaScript, React, AWS S3 and AWS CloudFront for website hosting.',
+    info2: '',
+    url: 'https://www.chetanpawar.cloud',
+    repo: 'https://github.com/pawarrchetan/portfolio-static-website', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA

@@ -3,7 +3,7 @@
 ## A clean, beautiful and responsive portfolio template
 
 <h2 align="center">
-  <img src="https://github.com/pawarrchetan/portfolio-static-website/blob/master/examples/portfoliodefault.jpg alt="Portfolio" width="600px" />
+  <img src="https://github.com/pawarrchetan/portfolio-static-website/blob/master/examples/example.gif alt="Portfolio" width="600px" />
   <br>
 </h2>
 
