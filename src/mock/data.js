@@ -23,8 +23,9 @@ export const aboutData = {
     'Driven and motivated to build great things in Cloud to get awesome results. Leveraging the cloud to create cost efficient architecture and improve revenue for organizations.',
   paragraphTwo:
     'Helping organizations to adapt to SRE model and automating every required step in the way.',
-  paragraphThree: 'Technologies I worked with - https://techradar.chetanpawar.cloud',
+  paragraphThree: 'A Technology enthusiast eager to try new things.',
   resume: 'https://github.com/pawarrchetan/resume/blob/main/ChetanPawarResume.pdf', // 'https://techradar.chetanpawar.cloud', // if no resume, the button will not show up
+  techradar: 'https://techradar.chetanpawar.cloud',
 };
 
 // PROJECTS DATA
@@ -102,8 +103,18 @@ export const footerData = {
     },
     {
       id: nanoid(),
+      name: 'xing',
+      url: 'https://www.xing.com/profile/Chetan_Pawar3/cv',
+    },
+    {
+      id: nanoid(),
       name: 'github',
       url: 'https://github.com/pawarrchetan',
+    },
+    {
+      id: nanoid(),
+      name: 'medium',
+      url: 'https://cloudychetan.medium.com',
     },
   ],
 };
